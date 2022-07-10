@@ -61,9 +61,7 @@ html {
   color: var(--key-lime);
 }
 
-/* 
-
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .container-flex {
     margin: 32px;
     width: 10px;
@@ -76,4 +74,3 @@ html {
     width: 10px;
   }
 }
-*/
