@@ -18,14 +18,14 @@ html {
   flex-direction: row;
 }
 
-#header-flexbox {
+.header-flexbox {
   border: 3px solid black;
   position: relative;
   top: -30px;
   background-color: var(--container-flex);
   color: var(--key-lime);
 }
-#paragraph {
+.paragraph {
   color: var(--key-lime);
 }
 
@@ -39,7 +39,7 @@ html {
   transform: scale(1, 0.5);
 }
 
-#little-box {
+.little-box {
   background-color: var(--key-lime);
 }
 
@@ -65,7 +65,7 @@ html {
   flex-direction: row;
 }
 
-#header-flex {
+.header-flex {
   border: 3px solid black;
   position: relative;
   top: -30px;
