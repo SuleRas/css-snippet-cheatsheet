@@ -39,22 +39,21 @@ html {
   transform: scale(1, 0.5);
 }
 
-.items-flex #little-box {
+#little-box {
   background-color: var(--key-lime);
 }
 
 @media screen and (max-width: 768px) {
   .container-flex {
     margin: 32px;
+    width: 10px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .container-flex {
-    margin: 32px;
-  }
   .container-color {
     margin: 32px;
+    width: 10px;
   }
 }
 
@@ -62,4 +61,14 @@ html {
   background-color: var(--container-color);
   height: 400px;
   margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+#header-flex {
+  border: 3px solid black;
+  position: relative;
+  top: -30px;
+  background-color: var(--container-flex);
+  color: var(--key-lime);
 }
