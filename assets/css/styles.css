@@ -10,6 +10,10 @@ html {
   font-size: 10px;
 }
 
+.header-box {
+  text-align: center;
+}
+
 .container-flex {
   background-color: var(--container-flex);
   height: 300px;
@@ -17,6 +21,7 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .header-flexbox {
@@ -32,9 +37,9 @@ html {
 
 .items-flex {
   border: 2px dashed black;
-  width: 500px;
+  width: 300px;
   height: 250px;
-  margin: 10px;
+  margin: 30px;
 }
 .items-flex :hover {
   transform: scale(1, 0.5);
@@ -51,25 +56,22 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.header-flex {
-  border: 3px solid black;
-  position: relative;
-  top: -30px;
-  background-color: var(--container-flex);
-  color: var(--key-lime);
+footer {
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-  .container-flex {
+  .items-flex {
     margin: 32px;
     width: 10px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .container-color {
+  .items-flex {
     margin: 32px;
     width: 10px;
   }
